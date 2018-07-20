@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fraymdh%2Flttng-modules.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fraymdh%2Flttng-modules?ref=badge_shield)
+
 LTTng-modules
 =============
 
@@ -119,3 +121,7 @@ Each PMU counter has its zero value set when it is attached to a context with
 add-context. Therefore, it is normal that the same counters attached to both the
 stream context and event context show different values for a given event; what
 matters is that they increment at the same rate.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fraymdh%2Flttng-modules.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fraymdh%2Flttng-modules?ref=badge_large)
